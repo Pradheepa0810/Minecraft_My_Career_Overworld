@@ -1,0 +1,124 @@
+{
+  "name": "Pradheepa Ramasundaram",
+  "title": "Senior Systems Engineer",
+  "tagline": "MBSE | Requirements Engineering | System Architecture | ISO 26262",
+  "contact": {
+    "email": "pradheeparamasundaram@gmail.com",
+    "phone": "+91 9444820509",
+    "linkedin": "",
+    "resumePdf": ""
+  },
+  "path": [
+    { "x": 0, "y": 6, "type": "start" },
+    { "x": 1, "y": 6, "type": "walk" },
+    { "x": 2, "y": 6, "type": "stage", "stageId": "bosch-1", "icon": "code" },
+    { "x": 3, "y": 6, "type": "walk" },
+    { "x": 4, "y": 6, "type": "walk" },
+    { "x": 4, "y": 5, "type": "walk" },
+    { "x": 5, "y": 5, "type": "stage", "stageId": "bosch-2", "icon": "model" },
+    { "x": 6, "y": 5, "type": "walk" },
+    { "x": 7, "y": 5, "type": "walk" },
+    { "x": 7, "y": 4, "type": "walk" },
+    { "x": 8, "y": 4, "type": "stage", "stageId": "nexteer", "icon": "architecture" },
+    { "x": 9, "y": 4, "type": "walk" },
+    { "x": 10, "y": 4, "type": "walk" },
+    { "x": 10, "y": 3, "type": "present", "icon": "leadership" }
+  ],
+  "stages": [
+    {
+      "id": "bosch-1",
+      "company": "Robert Bosch",
+      "role": "Software Engineer",
+      "startDate": "Jul 2019",
+      "endDate": "Mid-career foundation",
+      "achievements": [
+        "Designed AUTOSAR-compliant embedded software for ABS, ESP, ADAS, and hydrogen fuel cell applications.",
+        "Translated stakeholder and system requirements into production software through model-based development aligned with ISO 26262, ASPICE, and MISRA.",
+        "Built ECU state management, vehicle mode management, variant handling, and AUTOSAR communication services supporting vehicle-level functionality."
+      ],
+      "skills": [
+        "AUTOSAR",
+        "Embedded Software",
+        "Requirements Engineering",
+        "ISO 26262",
+        "Vehicle Systems"
+      ],
+      "icon": "code"
+    },
+    {
+      "id": "bosch-2",
+      "company": "Robert Bosch",
+      "role": "Senior Algorithm Engineer",
+      "startDate": "Role progression",
+      "endDate": "Apr 2025",
+      "achievements": [
+        "Developed control algorithms with MATLAB, Simulink, Stateflow, and TargetLink for safety-critical automotive programs.",
+        "Executed MIL and SIL verification using Simscape, Polyspace, and TPT to improve software quality and control system performance.",
+        "Mentored engineers on AUTOSAR architecture, braking systems, vehicle dynamics, and model-based engineering practices."
+      ],
+      "skills": [
+        "MATLAB",
+        "Simulink",
+        "Stateflow",
+        "Verification",
+        "Technical Leadership"
+      ],
+      "icon": "model"
+    },
+    {
+      "id": "nexteer",
+      "company": "Nexteer Automotive India",
+      "role": "Senior Systems Engineer",
+      "startDate": "Apr 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Own stakeholder and system requirements, functional and non-functional analysis, decomposition, allocation, and bidirectional traceability across the V-model.",
+        "Define logical and physical architectures with SysML across BDD, IBD, Use Case, Activity, Sequence, State Machine, Requirement, Parametric, and Boundary views.",
+        "Lead steer-by-wire architecture decisions, interface definition, change impact analysis, performance studies, trade-off analysis, FMEA/DFMEA, FTA, and ISO 26262 reviews."
+      ],
+      "skills": [
+        "MBSE",
+        "SysML",
+        "System Architecture",
+        "Traceability",
+        "Functional Safety"
+      ],
+      "icon": "architecture"
+    }
+  ],
+  "coreCompetencies": [
+    "Requirements Engineering",
+    "Stakeholder & System Requirements",
+    "MBSE",
+    "SysML",
+    "System Architecture",
+    "Interface Definition",
+    "Bidirectional Traceability",
+    "Change Impact Analysis",
+    "Performance & Trade-off Analysis",
+    "ISO 26262",
+    "FMEA / DFMEA",
+    "Fault Tree Analysis",
+    "ASPICE",
+    "AUTOSAR",
+    "MATLAB",
+    "Simulink",
+    "IBM Rhapsody",
+    "System Composer"
+  ],
+  "certifications": [
+    "University at Buffalo - Model-Based Systems Engineering",
+    "MathWorks - Systems Engineering; MATLAB, Simulink, Stateflow, Simscape & System Composer",
+    "Bosch - Model-Based Development; Requirements Elicitation"
+  ],
+  "education": [
+    "B.Tech., Electronics & Instrumentation Engineering - Amrita School of Engineering",
+    "PG Certification in Automotive Systems - IIT Madras"
+  ],
+  "present": {
+    "title": "You reached the present!",
+    "headline": "Currently delivering safety-critical steer-by-wire systems with a strong MBSE and architecture focus.",
+    "message": "If you are hiring for systems engineering, requirements, architecture, functional safety, or model-based development, this is the checkpoint to start a conversation.",
+    "icon": "leadership"
+  }
+}

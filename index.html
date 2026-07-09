@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Minecraft Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky-backdrop" aria-hidden="true">
+    <div class="sun-block"></div>
+    <div class="cloud-layer">
+      <img src="assets/decor/cloud.svg" alt="" class="cloud cloud-a">
+      <img src="assets/decor/cloud.svg" alt="" class="cloud cloud-b">
+      <img src="assets/decor/cloud.svg" alt="" class="cloud cloud-c">
+    </div>
+  </div>
+
+  <main class="app-shell">
+    <header class="hero-panel inventory-frame">
+      <div>
+        <p class="eyebrow">My Minecraft Universe</p>
+        <h1 id="playerName">Loading...</h1>
+        <p id="playerTitle" class="hero-title"></p>
+        <p id="playerTagline" class="hero-tagline"></p>
+      </div>
+      <div class="hero-copy">
+        <p>Walk the overworld to explore each career checkpoint in order.</p>
+        <p>Use the keyboard or on-screen controls to move one step at a time.</p>
+      </div>
+    </header>
+
+    <section class="world-panel inventory-frame" aria-labelledby="mapHeading">
+      <div class="hud-row">
+        <div class="hud-left">
+          <h2 id="mapHeading">Career Overworld</h2>
+          <div class="hud-status" aria-hidden="true">
+            <div class="hearts"><span>❤</span><span>❤</span><span>❤</span><span>❤</span><span>❤</span></div>
+            <div class="hunger"><span>◆</span><span>◆</span><span>◆</span><span>◆</span><span>◆</span></div>
+            <div class="xp-wrap"><div class="xp-bar"><div class="xp-fill"></div></div></div>
+          </div>
+        </div>
+        <div class="hud-right">
+          <div class="hud-chip" id="progressHud" aria-live="polite">Stage 1 of 1</div>
+          <div class="audio-controls inventory-frame" aria-label="Audio controls">
+            <button id="muteAudio" class="audio-button" type="button" aria-label="Toggle ambient audio">Mute</button>
+            <label class="volume-wrap" for="volumeSlider">Vol</label>
+            <input id="volumeSlider" type="range" min="0" max="100" value="65" aria-label="Ambient volume">
+          </div>
+        </div>
+      </div>
+
+      <div id="mapViewport" class="map-viewport" tabindex="0" aria-label="Interactive career map">
+        <div class="day-night-overlay" aria-hidden="true"></div>
+        <div id="mapGrid" class="map-grid" aria-hidden="true"></div>
+        <div id="entityLayer" class="entity-layer" aria-hidden="true"></div>
+        <div id="particleLayer" class="particle-layer" aria-hidden="true"></div>
+        <button id="avatar" class="avatar" type="button" aria-label="Current position on the career path">
+          <img id="avatarSprite" src="assets/avatar/idle.svg" alt="">
+        </button>
+        <div id="chunkFlash" class="chunk-flash" aria-hidden="true"></div>
+        <aside id="guidePopup" class="guide-popup inventory-frame" aria-live="polite" aria-label="Shepherd guidance">
+          <div class="guide-portrait" aria-hidden="true">
+            <div class="guide-hat"></div>
+            <div class="guide-face"></div>
+          </div>
+          <div class="guide-copy">
+            <p class="guide-name">Shepherd</p>
+            <p id="guideTarget" class="guide-target">Next role</p>
+            <p id="guideArrow" class="guide-arrow">▶ East</p>
+            <p id="guideText" class="guide-text">Follow the glowing path to the next checkpoint.</p>
+          </div>
+        </aside>
+        <div class="hotbar" aria-label="Movement controls">
+          <button class="hotbar-slot" type="button" data-direction="left" aria-label="Move left">◀</button>
+          <button class="hotbar-slot" type="button" data-direction="up" aria-label="Move up">▲</button>
+          <button class="hotbar-slot" type="button" data-direction="down" aria-label="Move down">▼</button>
+          <button class="hotbar-slot" type="button" data-direction="right" aria-label="Move right">▶</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="onboarding" class="overlay" role="dialog" aria-modal="true" aria-labelledby="onboardingTitle">
+    <div class="overlay-card inventory-frame">
+      <p class="eyebrow">Welcome</p>
+      <h2 id="onboardingTitle">Use arrow keys or tap the arrows to walk through my career.</h2>
+      <p>Each checkpoint opens a blocky profile card with the role, impact, and skills from that stage.</p>
+      <button id="startJourney" class="primary-button" type="button">Start Exploring</button>
+    </div>
+  </div>
+
+  <div id="infoModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-card inventory-frame">
+      <button id="closeModal" class="modal-close" type="button" aria-label="Close panel">✕</button>
+      <div class="modal-header">
+        <img id="modalIcon" class="modal-icon" src="assets/icons/gear.svg" alt="">
+        <div>
+          <p id="modalEyebrow" class="eyebrow"></p>
+          <h2 id="modalTitle"></h2>
+          <p id="modalMeta" class="modal-meta"></p>
+        </div>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+      <div id="modalActions" class="modal-actions"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
