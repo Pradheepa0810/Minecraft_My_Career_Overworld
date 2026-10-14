@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Pradheepa Ramasundaram — Resume",
+  "short_name": "Resume",
+  "description": "Senior Systems Engineer | MBSE | Requirements Engineering | System Architecture | ISO 26262",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#299b42",
+  "background_color": "#f4f5f2",
+  "icons": [
+    {
+      "src": "assets/icons/app-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

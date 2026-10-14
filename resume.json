@@ -2,10 +2,15 @@
   "name": "Pradheepa Ramasundaram",
   "title": "Senior Systems Engineer",
   "tagline": "MBSE | Requirements Engineering | System Architecture | ISO 26262",
+  "site": {
+    "url": "",
+    "shareImage": "",
+    "shareImageAlt": ""
+  },
   "contact": {
     "email": "pradheeparamasundaram@gmail.com",
     "phone": "+91 9444820509",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/pradheepa-ramasundaram/",
     "resumePdf": ""
   },
   "path": [
@@ -27,6 +32,7 @@
   "stages": [
     {
       "id": "bosch-1",
+      "region": { "decor": ["farm", "wheat", "hay", "lantern"], "density": 0.2, "radius": 7 },
       "company": "Robert Bosch",
       "role": "Software Engineer",
       "startDate": "Jul 2019",
@@ -47,6 +53,7 @@
     },
     {
       "id": "bosch-2",
+      "region": { "decor": ["redstone", "cobble", "torch"], "density": 0.28, "radius": 8 },
       "company": "Robert Bosch",
       "role": "Senior Algorithm Engineer",
       "startDate": "Role progression",
@@ -67,6 +74,7 @@
     },
     {
       "id": "nexteer",
+      "region": { "decor": ["redstone", "lantern", "rock"], "density": 0.22, "radius": 8 },
       "company": "Nexteer Automotive India",
       "role": "Senior Systems Engineer",
       "startDate": "Apr 2025",
@@ -115,8 +123,26 @@
     "B.Tech., Electronics & Instrumentation Engineering - Amrita School of Engineering",
     "PG Certification in Automotive Systems - IIT Madras"
   ],
+  "patchNotes": [],
+  "projects": [],
+  "testimonials": [],
+  "recognition": [
+    "Progression from Software Engineer to Senior Algorithm Engineer.",
+    "Architecture and safety technical leadership in steer-by-wire programs.",
+    "Mentored multidisciplinary engineers in MBD and AUTOSAR practices."
+  ],
+  "easterEggs": [
+    { "name": "Diamond Ore", "icon": "diamond", "fact": "I enjoy solving system architecture trade-offs under tight constraints." },
+    { "name": "Emerald Ore", "icon": "emerald", "fact": "Mentoring engineers is one of my favorite parts of leadership." },
+    { "name": "Chest", "icon": "gold-chest", "fact": "My career combines MBSE structure with practical embedded software delivery." },
+    { "name": "Silver Armour", "icon": "silver-armour", "fact": "I love converting complex requirements into clean, testable flows." },
+    { "name": "Golden Apple", "icon": "golden-apple", "fact": "Functional safety and reliability are always at the center of my decisions." },
+    { "name": "Secret Cave", "icon": "cave", "fact": "I thrive on cross-functional collaboration between systems and algorithm teams." }
+  ],
   "present": {
     "title": "You reached the present!",
+    "candidateTitle": "Congratulations on finding your new candidate!",
+    "candidateMessage": "You have explored my journey. Let's discuss how my experience can contribute to your next opportunity.",
     "headline": "Currently delivering safety-critical steer-by-wire systems with a strong MBSE and architecture focus.",
     "message": "If you are hiring for systems engineering, requirements, architecture, functional safety, or model-based development, this is the checkpoint to start a conversation.",
     "icon": "leadership"

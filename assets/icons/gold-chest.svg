@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <!-- Raised lid, dark interior, treasure and gold chest front. -->
+  <path fill="#614015" d="M5 1h22v3h3v10H2V4h3z"/>
+  <path fill="#edb73b" d="M5 3h22v2h1v7H4V5h1z"/>
+  <path fill="#ffe99b" d="M5 3h22v2H5zM4 5h2v7H4z"/>
+  <path fill="#805325" d="M7 6h18v5H7z"/>
+  <path fill="#382619" d="M2 14h28v8H2z"/>
+  <path fill="#d69725" d="M4 16h8v5H4zM18 14h9v7h-9zM11 19h10v3H11z"/>
+  <path fill="#ffe690" d="M5 15h6v2H5zM19 13h7v2h-7zM21 17h6v2h-6zM9 19h6v2H9z"/>
+  <path fill="#196784" d="M12 12h5v2h2v4h-2v2h-3v-2h-2z"/>
+  <path fill="#70efff" d="M13 12h4v3h-4zM14 15h3v3h-3z"/>
+  <path fill="#614015" d="M1 21h30v9H1z"/>
+  <path fill="#f2bc3c" d="M3 23h26v5H3z"/>
+  <path fill="#ffe99b" d="M3 21h26v2H3zM3 23h3v5H3z"/>
+  <path fill="#bb7b20" d="M26 23h3v5h-3zM6 27h20v1H6z"/>
+  <path fill="#fff0b1" d="M13 21h6v7h-6z"/>
+  <path fill="#7c541f" d="M15 23h2v3h-2z"/>
+  <path fill="#fffdeb" d="M28 9h2v2h2v2h-2v2h-2v-2h-2v-2h2z"/>
+</svg>
